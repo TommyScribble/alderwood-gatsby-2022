@@ -1,0 +1,26 @@
+in---
+id: 10
+title: 'Welcome to Alderwood Tree Care | We work in the Manchester and surrounding areas providing tree surgery and tree recycling services. Contact us for a free quote'
+date: '2014-03-03T18:25:35+00:00'
+author: tommy
+layout: page
+guid: 'http://www.alderwoodtreecare.com/?page_id=10'
+single_layout:
+    - '0'
+---
+
+### Alderwood Tree Care is a small friendly tree surgery business, established in 2005 and owned by Matt Brereton and Seth Rolph. We are based in Chorlton, south Manchester and generally work within the Greater Manchester, Cheshire and Stockport areas. We are experienced in all aspects of tree work, from dismantling, felling and pruning trees to grinding out tree stumps and also reducing and trimming hedges. [Click here](http://www.alderwoodtreecare.com/blog) to see our blog of previous work we have completed.
+
+Most of our customers are private domestic householders, however we have completed site clearance work for construction companies and developers via the [CIS scheme](https://www.gov.uk/what-is-the-construction-industry-scheme/how-cis-works). We also work with local estate agents and smaller property developers.
+
+Our customer [testimonials](http://www.alderwoodtreecare.com/?page_id=19 "Testimonials") show we provide a reliable professional service and are an approachable business with a solid work ethic. We have received numerous comments regarding the high quality of our work and the clean and tidy manner in which we leave each job.
+
+We pride ourselves on providing a service which meets each customer’s individual needs, and where customers are unsure as to what the best solution to their tree problems might be, we can offer advice and guidance.
+
+Should you require assistance with planning applications for work to be carried out to trees with [Tree Preservation Orders](http://www.planningni.gov.uk/8pp_tree_preservation_order_lores.pdf) or in [Conservation Areas](https://www.english-heritage.org.uk/caring/listing/local/conservation-areas/), this is a service we can provide.
+
+We both have the necessary industry qualifications ([National Proficiency Test Council (NPTC](http://www.nptc.org.uk/)) to operate safely as tree surgeons. Our equipment is inspected twice a year by a [LOLER](http://www.hse.gov.uk/work-equipment-machinery/loler.htm) inspector to ensure its safety and, in the eventuality of anything ever going wrong, we have insurance of £5,000,000, with a zero claims history.
+
+Our ethos regarding [recycling](http://www.alderwoodtreecare.com/?page_id=31 "Recycling Policy") means that we chop and store the wood we take away, drying it out for the year and selling it as firewood the following winter. If the wood is too good to burn we might plank it for use by carpenters and cabinet makers or make our own bespoke furniture and pieces for weddings and other events. Our other main by product is wood chip, which we deliver free of charge to local allotments, schools and others that can make use of it. All other waste is taken to a local recycling facility.
+
+Feel free to [contact us](http://www.alderwoodtreecare.com/?page_id=15) at Alderwood Tree Care with any questions you may have and to obtain a free, no obligation quotation.
