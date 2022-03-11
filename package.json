@@ -14,14 +14,14 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@types/react": "^17.0.33",
-    "@types/react-dom": "^17.0.11",
-    "gatsby": "^4.0.2",
-    "gatsby-plugin-netlify-cms": "^6.2.0",
-    "gatsby-plugin-ts": "^3.1.0",
-    "netlify-cms-app": "^2.15.59",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "gatsby": "^4.9.3",
+    "gatsby-plugin-netlify-cms": "^6.9.0",
+    "gatsby-plugin-ts": "^3.1.1",
+    "netlify-cms-app": "^2.15.68",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "typescript": "^4.4.4"
+    "typescript": "^4.6.2"
   }
 }

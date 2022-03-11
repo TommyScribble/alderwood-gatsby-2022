@@ -18,7 +18,7 @@ const Homepage = () => {
 				Congratulations
 				<br />
 				<span className={styles.headingAccentStyles}>
-					— you just made a Gatsby site!
+					— you just made a Gatsby site! BOOM
 				</span>
 				<span role="img" aria-label="Party popper emojis">
 					🎉🎉🎉

@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby, Typescript and CSS Modules minimal starter
+  Gatsby, Typescript, Markdown and CSS Modules minimal starter
 </h1>
 
 ## 🚀 Quick start
