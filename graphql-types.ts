@@ -331,6 +331,20 @@ export type SiteBuildMetadataBuildTimeArgs = {
 
 export type MdxFrontmatter = {
   title: Scalars['String'];
+  id?: Maybe<Scalars['Int']>;
+  date?: Maybe<Scalars['Date']>;
+  author?: Maybe<Scalars['String']>;
+  layout?: Maybe<Scalars['String']>;
+  guid?: Maybe<Scalars['String']>;
+  single_layout?: Maybe<Array<Maybe<Scalars['String']>>>;
+};
+
+
+export type MdxFrontmatterDateArgs = {
+  formatString?: InputMaybe<Scalars['String']>;
+  fromNow?: InputMaybe<Scalars['Boolean']>;
+  difference?: InputMaybe<Scalars['String']>;
+  locale?: InputMaybe<Scalars['String']>;
 };
 
 export type MdxHeadingMdx = {
@@ -712,6 +726,12 @@ export type MdxFilterInput = {
 
 export type MdxFrontmatterFilterInput = {
   title?: InputMaybe<StringQueryOperatorInput>;
+  id?: InputMaybe<IntQueryOperatorInput>;
+  date?: InputMaybe<DateQueryOperatorInput>;
+  author?: InputMaybe<StringQueryOperatorInput>;
+  layout?: InputMaybe<StringQueryOperatorInput>;
+  guid?: InputMaybe<StringQueryOperatorInput>;
+  single_layout?: InputMaybe<StringQueryOperatorInput>;
 };
 
 export type MdxHeadingMdxFilterListInput = {
@@ -861,6 +881,12 @@ export type FileFieldsEnum =
   | 'childrenMdx___rawBody'
   | 'childrenMdx___fileAbsolutePath'
   | 'childrenMdx___frontmatter___title'
+  | 'childrenMdx___frontmatter___id'
+  | 'childrenMdx___frontmatter___date'
+  | 'childrenMdx___frontmatter___author'
+  | 'childrenMdx___frontmatter___layout'
+  | 'childrenMdx___frontmatter___guid'
+  | 'childrenMdx___frontmatter___single_layout'
   | 'childrenMdx___slug'
   | 'childrenMdx___body'
   | 'childrenMdx___excerpt'
@@ -915,6 +941,12 @@ export type FileFieldsEnum =
   | 'childMdx___rawBody'
   | 'childMdx___fileAbsolutePath'
   | 'childMdx___frontmatter___title'
+  | 'childMdx___frontmatter___id'
+  | 'childMdx___frontmatter___date'
+  | 'childMdx___frontmatter___author'
+  | 'childMdx___frontmatter___layout'
+  | 'childMdx___frontmatter___guid'
+  | 'childMdx___frontmatter___single_layout'
   | 'childMdx___slug'
   | 'childMdx___body'
   | 'childMdx___excerpt'
@@ -2491,6 +2523,12 @@ export type MdxFieldsEnum =
   | 'rawBody'
   | 'fileAbsolutePath'
   | 'frontmatter___title'
+  | 'frontmatter___id'
+  | 'frontmatter___date'
+  | 'frontmatter___author'
+  | 'frontmatter___layout'
+  | 'frontmatter___guid'
+  | 'frontmatter___single_layout'
   | 'slug'
   | 'body'
   | 'excerpt'
