@@ -331,7 +331,6 @@ export type SiteBuildMetadataBuildTimeArgs = {
 
 export type MdxFrontmatter = {
   title: Scalars['String'];
-  id?: Maybe<Scalars['Int']>;
   date?: Maybe<Scalars['Date']>;
   author?: Maybe<Scalars['String']>;
   layout?: Maybe<Scalars['String']>;
@@ -726,7 +725,6 @@ export type MdxFilterInput = {
 
 export type MdxFrontmatterFilterInput = {
   title?: InputMaybe<StringQueryOperatorInput>;
-  id?: InputMaybe<IntQueryOperatorInput>;
   date?: InputMaybe<DateQueryOperatorInput>;
   author?: InputMaybe<StringQueryOperatorInput>;
   layout?: InputMaybe<StringQueryOperatorInput>;
@@ -881,7 +879,6 @@ export type FileFieldsEnum =
   | 'childrenMdx___rawBody'
   | 'childrenMdx___fileAbsolutePath'
   | 'childrenMdx___frontmatter___title'
-  | 'childrenMdx___frontmatter___id'
   | 'childrenMdx___frontmatter___date'
   | 'childrenMdx___frontmatter___author'
   | 'childrenMdx___frontmatter___layout'
@@ -941,7 +938,6 @@ export type FileFieldsEnum =
   | 'childMdx___rawBody'
   | 'childMdx___fileAbsolutePath'
   | 'childMdx___frontmatter___title'
-  | 'childMdx___frontmatter___id'
   | 'childMdx___frontmatter___date'
   | 'childMdx___frontmatter___author'
   | 'childMdx___frontmatter___layout'
@@ -2523,7 +2519,6 @@ export type MdxFieldsEnum =
   | 'rawBody'
   | 'fileAbsolutePath'
   | 'frontmatter___title'
-  | 'frontmatter___id'
   | 'frontmatter___date'
   | 'frontmatter___author'
   | 'frontmatter___layout'
