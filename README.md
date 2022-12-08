@@ -1,15 +1,15 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://www.alderwoodtreecare.com/wp-content/uploads/2014/07/logoSITE.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby, Typescript, Markdown and CSS Modules minimal starter
+  Alderwood Tree Care site based on my Gatsby, Typescript, Markdown and CSS Modules minimal starter
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **CCreate a local coopy of the site**
 
     Pull this repo and install modules
 
