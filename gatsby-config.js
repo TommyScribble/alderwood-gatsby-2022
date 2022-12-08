@@ -5,12 +5,6 @@ module.exports = {
 	},
 	plugins: [
 		{
-			resolve: `gatsby-plugin-ts`,
-			options: {
-				typeCheck: process.env.NODE_ENV !== "production",
-			},
-		},
-		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `pages`,
@@ -34,6 +28,19 @@ module.exports = {
 			resolve: `gatsby-plugin-mdx`,
 			options: {
 				extensions: [`.mdx`, `.md`],
+			},
+		},
+		{
+			resolve: "gatsby-plugin-typegen",
+			options: {
+				outputPath: "src/__generated__/gatsby-types.d.ts",
+				emitSchema: {
+					"src/__generated__/gatsby-introspection.json": true,
+					"src/__generated__/gatsby-schema.graphql": true,
+				},
+				emitPluginDocument: {
+					"src/__generated__/gatsby-plugin-documents.graphql": true,
+				},
 			},
 		},
 	],
