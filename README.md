@@ -31,4 +31,4 @@
     Your site is now running at http://localhost:8000!
 
 
-
+4. This site now uses a CI/CD pipeline
