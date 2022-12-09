@@ -1,27 +1,27 @@
 module.exports = {
 	siteMetadata: {
-		siteUrl: "https://www.yourdomain.tld",
-		title: "Scibbles scribbling",
+		siteUrl: "https://www.alderwoodtreecare.com",
+		title: "Alderwood Tree Care 2022",
 	},
 	plugins: [
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `pages`,
-				path: `${__dirname}/src/pages/`,
+				path: `./src/pages/`,
 			},
 		},
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `posts`,
-				path: `${__dirname}/src/posts/`,
+				path: `./src/posts/`,
 			},
 		},
 		{
 			resolve: `gatsby-plugin-page-creator`,
 			options: {
-				path: `${__dirname}/src/posts`,
+				path: `./src/posts`,
 			},
 		},
 		{
