@@ -18,7 +18,7 @@ module.exports = {
 		// 		path: `${__dirname}/src/posts/`,
 		// 	},
 		// },
-		// {
+		// { not needed as already included by gatsby.. only needed when using another folder like 'posts'
 		// 	resolve: `gatsby-plugin-page-creator`,
 		// 	options: {
 		// 		path: `${__dirname}/src/posts`,

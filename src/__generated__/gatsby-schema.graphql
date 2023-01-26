@@ -832,54 +832,30 @@ input MdxFilterListInput {
 
 type MdxFrontmatter {
   author: String
-  date(
-    """
-    Returns the difference between this date and the current time. Defaults to "milliseconds" but you can also pass in as the measurement "years", "months", "weeks", "days", "hours", "minutes", and "seconds".
-    """
-    difference: String
-
-    """
-    Format the date using Moment.js' date tokens, e.g. `date(formatString: "YYYY MMMM DD")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens.
-    """
-    formatString: String
-
-    """Returns a string generated with Moment.js' `fromNow` function"""
-    fromNow: Boolean
-
-    """Configures the locale Moment.js will use to format the date."""
-    locale: String
-  ): Date
-  guid: String
-  layout: String
-  single_layout: [String]
-  title: String
+  date: String
+  slug: String
+  template_key: String
 }
 
 input MdxFrontmatterFieldSelector {
   author: FieldSelectorEnum
   date: FieldSelectorEnum
-  guid: FieldSelectorEnum
-  layout: FieldSelectorEnum
-  single_layout: FieldSelectorEnum
-  title: FieldSelectorEnum
+  slug: FieldSelectorEnum
+  template_key: FieldSelectorEnum
 }
 
 input MdxFrontmatterFilterInput {
   author: StringQueryOperatorInput
-  date: DateQueryOperatorInput
-  guid: StringQueryOperatorInput
-  layout: StringQueryOperatorInput
-  single_layout: StringQueryOperatorInput
-  title: StringQueryOperatorInput
+  date: StringQueryOperatorInput
+  slug: StringQueryOperatorInput
+  template_key: StringQueryOperatorInput
 }
 
 input MdxFrontmatterSortInput {
   author: SortOrderEnum
   date: SortOrderEnum
-  guid: SortOrderEnum
-  layout: SortOrderEnum
-  single_layout: SortOrderEnum
-  title: SortOrderEnum
+  slug: SortOrderEnum
+  template_key: SortOrderEnum
 }
 
 type MdxGroupConnection {
@@ -1099,12 +1075,14 @@ input SiteFieldSelector {
   buildTime: FieldSelectorEnum
   children: NodeFieldSelector
   graphqlTypegen: FieldSelectorEnum
+  host: FieldSelectorEnum
   id: FieldSelectorEnum
   internal: InternalFieldSelector
   jsxRuntime: FieldSelectorEnum
   parent: NodeFieldSelector
   pathPrefix: FieldSelectorEnum
   polyfill: FieldSelectorEnum
+  port: FieldSelectorEnum
   siteMetadata: SiteSiteMetadataFieldSelector
   trailingSlash: FieldSelectorEnum
 }
@@ -1337,12 +1315,14 @@ input SiteSortInput {
   buildTime: SortOrderEnum
   children: NodeSortInput
   graphqlTypegen: SortOrderEnum
+  host: SortOrderEnum
   id: SortOrderEnum
   internal: InternalSortInput
   jsxRuntime: SortOrderEnum
   parent: NodeSortInput
   pathPrefix: SortOrderEnum
   polyfill: SortOrderEnum
+  port: SortOrderEnum
   siteMetadata: SiteSiteMetadataSortInput
   trailingSlash: SortOrderEnum
 }

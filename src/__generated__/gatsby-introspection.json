@@ -7823,66 +7823,17 @@
           {
             "name": "date",
             "description": null,
-            "args": [
-              {
-                "name": "difference",
-                "description": "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\".",
-                "type": {
-                  "kind": "SCALAR",
-                  "name": "String",
-                  "ofType": null
-                },
-                "defaultValue": null,
-                "isDeprecated": false,
-                "deprecationReason": null
-              },
-              {
-                "name": "formatString",
-                "description": "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens.",
-                "type": {
-                  "kind": "SCALAR",
-                  "name": "String",
-                  "ofType": null
-                },
-                "defaultValue": null,
-                "isDeprecated": false,
-                "deprecationReason": null
-              },
-              {
-                "name": "fromNow",
-                "description": "Returns a string generated with Moment.js' `fromNow` function",
-                "type": {
-                  "kind": "SCALAR",
-                  "name": "Boolean",
-                  "ofType": null
-                },
-                "defaultValue": null,
-                "isDeprecated": false,
-                "deprecationReason": null
-              },
-              {
-                "name": "locale",
-                "description": "Configures the locale Moment.js will use to format the date.",
-                "type": {
-                  "kind": "SCALAR",
-                  "name": "String",
-                  "ofType": null
-                },
-                "defaultValue": null,
-                "isDeprecated": false,
-                "deprecationReason": null
-              }
-            ],
+            "args": [],
             "type": {
               "kind": "SCALAR",
-              "name": "Date",
+              "name": "String",
               "ofType": null
             },
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
-            "name": "guid",
+            "name": "slug",
             "description": null,
             "args": [],
             "type": {
@@ -7894,35 +7845,7 @@
             "deprecationReason": null
           },
           {
-            "name": "layout",
-            "description": null,
-            "args": [],
-            "type": {
-              "kind": "SCALAR",
-              "name": "String",
-              "ofType": null
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "single_layout",
-            "description": null,
-            "args": [],
-            "type": {
-              "kind": "LIST",
-              "name": null,
-              "ofType": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              }
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "title",
+            "name": "template_key",
             "description": null,
             "args": [],
             "type": {
@@ -7971,7 +7894,7 @@
             "deprecationReason": null
           },
           {
-            "name": "guid",
+            "name": "slug",
             "description": null,
             "type": {
               "kind": "ENUM",
@@ -7983,31 +7906,7 @@
             "deprecationReason": null
           },
           {
-            "name": "layout",
-            "description": null,
-            "type": {
-              "kind": "ENUM",
-              "name": "FieldSelectorEnum",
-              "ofType": null
-            },
-            "defaultValue": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "single_layout",
-            "description": null,
-            "type": {
-              "kind": "ENUM",
-              "name": "FieldSelectorEnum",
-              "ofType": null
-            },
-            "defaultValue": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "title",
+            "name": "template_key",
             "description": null,
             "type": {
               "kind": "ENUM",
@@ -8047,7 +7946,7 @@
             "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
-              "name": "DateQueryOperatorInput",
+              "name": "StringQueryOperatorInput",
               "ofType": null
             },
             "defaultValue": null,
@@ -8055,7 +7954,7 @@
             "deprecationReason": null
           },
           {
-            "name": "guid",
+            "name": "slug",
             "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
@@ -8067,31 +7966,7 @@
             "deprecationReason": null
           },
           {
-            "name": "layout",
-            "description": null,
-            "type": {
-              "kind": "INPUT_OBJECT",
-              "name": "StringQueryOperatorInput",
-              "ofType": null
-            },
-            "defaultValue": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "single_layout",
-            "description": null,
-            "type": {
-              "kind": "INPUT_OBJECT",
-              "name": "StringQueryOperatorInput",
-              "ofType": null
-            },
-            "defaultValue": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "title",
+            "name": "template_key",
             "description": null,
             "type": {
               "kind": "INPUT_OBJECT",
@@ -8139,7 +8014,7 @@
             "deprecationReason": null
           },
           {
-            "name": "guid",
+            "name": "slug",
             "description": null,
             "type": {
               "kind": "ENUM",
@@ -8151,31 +8026,7 @@
             "deprecationReason": null
           },
           {
-            "name": "layout",
-            "description": null,
-            "type": {
-              "kind": "ENUM",
-              "name": "SortOrderEnum",
-              "ofType": null
-            },
-            "defaultValue": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "single_layout",
-            "description": null,
-            "type": {
-              "kind": "ENUM",
-              "name": "SortOrderEnum",
-              "ofType": null
-            },
-            "defaultValue": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "title",
+            "name": "template_key",
             "description": null,
             "type": {
               "kind": "ENUM",
@@ -12691,6 +12542,18 @@
             "deprecationReason": null
           },
           {
+            "name": "host",
+            "description": null,
+            "type": {
+              "kind": "ENUM",
+              "name": "FieldSelectorEnum",
+              "ofType": null
+            },
+            "defaultValue": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "id",
             "description": null,
             "type": {
@@ -12752,6 +12615,18 @@
           },
           {
             "name": "polyfill",
+            "description": null,
+            "type": {
+              "kind": "ENUM",
+              "name": "FieldSelectorEnum",
+              "ofType": null
+            },
+            "defaultValue": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "port",
             "description": null,
             "type": {
               "kind": "ENUM",
@@ -15980,6 +15855,18 @@
             "deprecationReason": null
           },
           {
+            "name": "host",
+            "description": null,
+            "type": {
+              "kind": "ENUM",
+              "name": "SortOrderEnum",
+              "ofType": null
+            },
+            "defaultValue": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "id",
             "description": null,
             "type": {
@@ -16041,6 +15928,18 @@
           },
           {
             "name": "polyfill",
+            "description": null,
+            "type": {
+              "kind": "ENUM",
+              "name": "SortOrderEnum",
+              "ofType": null
+            },
+            "defaultValue": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "port",
             "description": null,
             "type": {
               "kind": "ENUM",
